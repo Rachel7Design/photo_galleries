@@ -337,6 +337,7 @@ img:hover {
 
 
 
+@media screen and (min-width: 1000px) {
 
 .aboutme .link {
   background-color:white;
@@ -431,6 +432,7 @@ img.rachel {
   
   }
 
+}
 }
 
 
