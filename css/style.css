@@ -339,6 +339,13 @@ img:hover {
 
 @media screen and (min-width: 1000px) {
 
+
+.rachel {
+  grid-column: 2/3;
+  display: grid;
+
+}
+
 .aboutme .link {
   background-color:white;
   color: black;
@@ -366,11 +373,13 @@ img.rachel {
 .rachel {
   
   grid-column: 2/3;
+  margin-left: 20px;
 }
 
 .aboutrachel {
   padding: 30px;
-  margin-top: 20px;
+  margin-top: 25px;
+  display: grid;
 }
 
 
