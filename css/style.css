@@ -340,11 +340,7 @@ img:hover {
 @media screen and (min-width: 1000px) {
 
 
-.rachel {
-  grid-column: 2/3;
-  display: grid;
 
-}
 
 .aboutme .link {
   background-color:white;
@@ -369,17 +365,17 @@ img:hover {
 
 img.rachel {
   animation: none;
-}
-.rachel {
-  
-  grid-column: 2/3;
+  grid-column: 2/4;
   margin-left: 20px;
 }
+
 
 .aboutrachel {
   padding: 30px;
   margin-top: 25px;
-  display: grid;
+  grid-column: 1/2;
+  grid-row: 1;
+
 }
 
 
