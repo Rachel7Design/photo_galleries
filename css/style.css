@@ -363,10 +363,6 @@ img:hover {
   
 }
 
-.rachel {
- grid-column: 1/2;
- grid-row: 1;
-}
 
 img.rachel {
   animation: none;
@@ -379,7 +375,7 @@ img.rachel {
   padding: 30px;
   margin-top: 25px;
   grid-column: 1/2;
-
+  grid-row: 1/2;
 
 }
 
