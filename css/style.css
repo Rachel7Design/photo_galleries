@@ -224,12 +224,12 @@ body {
 }
 #mute {
   grid-column: 2/3;
-  grid-row: 2;
-  justify-self: start;
+  grid-row: 2/3;
+  justify-self: end;
 }
 #reduceMotion {
-  grid-column: 2/3;
-  grid-row: 2;
+  grid-column: 3/4;
+  grid-row: 2/3;
   justify-self: start;
 }
 
