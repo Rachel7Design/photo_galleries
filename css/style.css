@@ -212,7 +212,6 @@ body {
 }
 
 
-
 #play {
   grid-column: 2/3;
   grid-row: 1/2;
@@ -224,12 +223,12 @@ body {
   justify-self: start;
 }
 #mute {
-  grid-column: 4/5;
+  grid-column: 2/3;
   grid-row: 2;
   justify-self: start;
 }
 #reduceMotion {
-  grid-column: 4/5;
+  grid-column: 2/3;
   grid-row: 2;
   justify-self: start;
 }
