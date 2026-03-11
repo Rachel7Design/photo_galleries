@@ -215,12 +215,12 @@ body {
 
 #play {
   grid-column: 2/3;
-  grid-row: 1;
+  grid-row: 1/2;
   justify-self: end;
 }
 #pause {
   grid-column: 3/4;
-  grid-row: 1;
+  grid-row: 1/2;
   justify-self: start;
 }
 #mute {
