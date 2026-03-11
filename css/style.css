@@ -203,6 +203,11 @@ body {
 
 /* nature page code  */
 
+.video {
+  display: flex;
+  justify-content: center;
+}
+
 .videoButtons {
   display: flex;
   flex-wrap: wrap;
