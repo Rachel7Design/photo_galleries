@@ -226,6 +226,26 @@ height: 600px;
 
 }
 
+#play {
+  grid-column: 2/3;
+  justify-self: end;
+}
+
+#pause {
+  grid-column: 2/3;
+  justify-self: start;
+}
+
+#mute {
+  grid-column: 2/3;
+  justify-self: center;
+}
+
+#reduceMotion {
+  grid-column: 2/3;
+  justify-self: center;
+}
+
 button {
   width:fit-content;
 }
