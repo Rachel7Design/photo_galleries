@@ -250,11 +250,7 @@ button {
   width:fit-content;
 }
 
-#play {
-  grid-column: 2/3;
-  justify-self: end;
 
-}
 
 
 .natureHeading {
@@ -282,9 +278,6 @@ button {
   box-shadow: 0 0 70px red;
 }
 
-.mute {
-  display: flex;
-}
 
 #mute {
   margin: auto;
