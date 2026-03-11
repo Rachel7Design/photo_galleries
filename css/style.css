@@ -204,34 +204,15 @@ body {
 /* nature page code  */
 
 .videoButtons {
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: auto auto;
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
   margin: auto;
   padding: 5px;
+  width: 100%;
 }
-
-
-#play {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  justify-self: end;
-}
-#pause {
-  grid-column: 3/4;
-  grid-row: 1/2;
-  justify-self: start;
-}
-#mute {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  justify-self: end;
-}
-#reduceMotion {
-  grid-column: 3/4;
-  grid-row: 2/3;
-  justify-self: start;
-}
+ 
 
 button {
   width:fit-content;
