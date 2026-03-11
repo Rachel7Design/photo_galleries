@@ -67,3 +67,18 @@ document.querySelector("#mute").addEventListener("click", function()
 
 // end of video code
 
+const reduceMotionBtn = document.getElementById('reduceMotion');
+let motionDisabled = false;
+
+reduceMotionBtn.addEventListener('click', () => {
+  motionDisabled = !motionDisabled;
+
+  if (motionDisabled) {
+    document.body.classList.add('no-motion');
+    reduceMotionBtn.textContent = 'Enable Photo Animation';
+  } else {
+    document.body.classList.remove('no-motion');
+    reduceMotionBtn.textContent = 'Disable Photo Animation';
+  }
+});
+
